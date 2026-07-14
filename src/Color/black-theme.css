@@ -1,0 +1,15 @@
+.root { -fx-background-color: #121212; }
+.title-label { -fx-font-size: 24px; -fx-font-weight: bold; }
+
+/* Grouped Text Color */
+.label, .text-field, .combo-box, .list-cell, .menu-item .label { -fx-text-fill: #AAAAAA; }
+
+/* Grouped Dark Backgrounds */
+.text-field, .combo-box, .list-cell, .list-view, .menu-item, .context-menu { -fx-background-color: #2B2B2B; }
+
+/* Specific Component Styling */
+.button { -fx-background-color: #333; -fx-text-fill: #FFF; -fx-font-weight: bold; -fx-background-radius: 5; -fx-cursor: hand; }
+.text-field, .combo-box { -fx-border-color: #555; -fx-border-radius: 5; }
+
+/* Hover Effects */
+.list-cell:filled:hover, .menu-item:focused { -fx-background-color: #444; }

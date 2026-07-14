@@ -1,0 +1,10 @@
+nl.k|2026-07-08T09:00|2026-07-08T10:00|#D38E83|null|📌|Do Now|false
+hli|2026-07-08T09:45|2026-07-08T10:00|#2B2B2B|null|📌|Do Now|false
+jil|2026-07-08T10:13|2026-07-08T10:35|#2B2B2B|null|📌|Do Now|false
+nn|2026-07-08T10:18|2026-07-08T10:58|#2B2B2B|null|📌|Do Now|false
+hyjt|2026-07-11T09:00|2026-07-11T10:00|#555555|null|⏰|Do Now|false
+jj|2026-07-11T12:42|2026-07-11T20:00|#6680E6|null|📌|Do Now|true
+lgf[bf|2026-07-11T12:43|2026-07-11T20:00|#555555|null|📌|Do Now|true
+kpv|2026-07-11T12:50|2026-07-11T20:00|#4D8080|null|🍕|Do Now|false
+ktrkhphr|2026-07-11T12:59|2026-07-11T14:00|#996699|null|🍕|Do Now|true
+bfghdf|2026-07-13T09:00|2026-07-13T10:00|#E64D4D|null|💻|Eliminate|true
