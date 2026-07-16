@@ -19,6 +19,9 @@ import javax.imageio.ImageIO;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.rendering.PDFRenderer;
 
+import org.apache.pdfbox.Loader;
+import org.apache.pdfbox.pdmodel.PDDocument;
+
 public class MyBackpackView {
     private BorderPane mainLayout;
     private VBox pocketContent;
@@ -533,9 +536,8 @@ public class MyBackpackView {
 
         if (fileNameLower.endsWith(".pdf")) {
             try {
-                PDDocument document = PDDocument.load(f);
+                PDDocument document = Loader.loadPDF(f);
                 PDFRenderer pdfRenderer = new PDFRenderer(document);
-
                 for (int i = 0; i < document.getNumberOfPages(); i++) {
                     java.awt.image.BufferedImage bim = pdfRenderer.renderImageWithDPI(i, 130);
                     javafx.scene.image.WritableImage fxImage = SwingFXUtils.toFXImage(bim, null);
